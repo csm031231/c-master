@@ -5,7 +5,7 @@ int main(){
 
 	int d[qoduf] = { 3, 7, 1, 9, 10 };
 	int cnt = 0;
-	int max = d[0]; // ÃÖ¼Ú°ªÀ¸·Î ÁöÁ¤
+	int max = d[0]; // ÃƒÃ–Â¼ÃšÂ°ÂªÃ€Â¸Â·Ã ÃÃ¶ÃÂ¤
 	
 	
 	for (int i = 0; i < qoduf; i++){
