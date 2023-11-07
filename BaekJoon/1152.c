@@ -1,25 +1,21 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char str[1000001];
-    int Count = 0;
-    int a = 1; //첫 문자 나타냄...
-    char c;
+    gets(str);
+    int len = strlen(str);
 
-    for (int i = 0; (c = getchar()) != '\n'; i++) 
-    {
-        str[i] = c;
-        if (c != ' ') 
-        {
-            if (a) 
-            {
-                Count++;
-                a = 0; 
-            }
+    int Count = 0;
+    int inWord = 0;
+    for (int i = 0; i < len; i++) {
+        if (str[i] == ' ') {
+            inWord = 0;
         }
-        else {
-            a = 1; 
+        else if (inWord == 0) {
+            inWord = 1;
+            Count++;
         }
     }
 
