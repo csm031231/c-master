@@ -9,7 +9,7 @@ int main()
 
 	sum = compute_sum_1toN(&n); //int compute_sum_1toN(n);
 
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕÀº %dÀÔ´Ï´Ù.\n", n, sum);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•©ì€ %dì…ë‹ˆë‹¤\n", n, sum);
 
 }
 int compute_sum_1toN(int *p) //int compute_sum_1toN(int p);
