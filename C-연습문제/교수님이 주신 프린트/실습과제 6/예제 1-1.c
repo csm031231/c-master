@@ -7,7 +7,7 @@ int main()
 	scanf_s("%d", &n);
 
 	nsum = compute_sum_1toN(n);
-	printf("1ºÎÅÍ %d±îÁö ÇÕÀº : %d", n, nsum);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•©: %d", n, nsum);
 
 	return 0;
 }
