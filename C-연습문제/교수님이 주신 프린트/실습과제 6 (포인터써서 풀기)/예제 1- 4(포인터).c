@@ -8,8 +8,8 @@ int main() {
 	scanf_s("%d %d", &n1, &n2);
 	a = mult(&n1, &n2);
 	double b = div(&n1, &n2);
-	printf("%d¿Í %dÀÇ °öÀº %d\n", n1, n2, a);
-	printf("%d¿Í %dÀÇ ºñÀ²Àº %lf\n", n1, n2, b);
+	printf("%dì™€ %dì˜ ê³± %d\n", n1, n2, a);
+	printf("%dì™€ %dì˜ ë¹„ìœ¨ %lf\n", n1, n2, b);
 }
 int mult(int *n1, int *n2)
 {
