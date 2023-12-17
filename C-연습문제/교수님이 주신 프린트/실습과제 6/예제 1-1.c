@@ -31,7 +31,7 @@ int main()
 	scanf_s("%d", &n);
 
 	nsum = compute_sum_1toN(n);
-	printf("1부터 %d까지의 합: %d", n, nsum);
+	printf("1부??%d까�????? %d", n, nsum);
 
 	return 0;
 }

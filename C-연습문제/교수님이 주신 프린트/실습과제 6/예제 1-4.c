@@ -31,8 +31,8 @@ int main() {
 	scanf_s("%d %d", &n1, &n2);
 	a = mult(n1, n2);
 	double b = div(n1, n2);
-	printf("%d와 %d의 곱은 %d\n", n1, n2, a);
-	printf("%d와 %d 비율은 %lf\n", n1, n2, b);
+	printf("%d?� %d??곱�? %d\n", n1, n2, a);
+	printf("%d?� %d 비율?� %lf\n", n1, n2, b);
 }
 int mult(int n1, int n2) 
 {
