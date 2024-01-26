@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 int compute_sum_1toN(int number);
 
@@ -8,7 +7,7 @@ int main()
 	scanf_s("%d", &n);
 
 	nsum = compute_sum_1toN(n);
-	printf("1ºÎÅÍ %d±îÁö ÇÕÀº : %d", n, nsum);
+	printf("1ë¶€í„° %dê¹Œì§€ í•©ì€ : %d", n, nsum);
 
 	return 0;
 }
@@ -21,6 +20,7 @@ int compute_sum_1toN(int number) {
 	}
 		return sum;
 }
+<<<<<<< HEAD
 =======
 #include <stdio.h>
 int compute_sum_1toN(int number);
@@ -45,3 +45,5 @@ int compute_sum_1toN(int number) {
 		return sum;
 }
 >>>>>>> b7ede86afb6c3f154f4f3423014e8acadcacd1bc
+=======
+>>>>>>> 67d45e9cb8d75662d80db6515bbe516e4e2a58f6
